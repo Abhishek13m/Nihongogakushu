@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nihongogakushu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,800;1,400&family=Prosto+One&family=Rubik+Bubbles&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="link rel="preconnect href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Lao:wght@600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,800;1,400&family=Prosto+One&family=Rubik+Bubbles&family=Style+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Noto+Serif+Lao:wght@600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,800;1,400&family=Prosto+One&family=Rubik+Bubbles&family=Style+Script&display=swap" rel="stylesheet">  
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html" style="background: linear-gradient(90deg,#4285F4,#3B5998);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 40px;
+            text-decoration: none;font-family: 'Dancing Script', cursive;">Nihongogakushu </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Index2.html">Index</a></li>
+                    <li><a href="">Content</a></li>
+                    <li><a href="About.html">About</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+
+
+
+        </nav>
+       <h1>About us</h1>
+    </section>
+
+
+    <!---- about us content--------->
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+<h1> vison</h1>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae consectetur obcaecati ad beatae dolores eos nisi dolorem itaque nulla? Cum reiciendis repellat aliquid suscipit nesciunt fugiat ab provident eveniet quidem?
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, exercitationem tempore dolores architecto neque et porro accusantium, sunt iste placeat sapiente cum fugit dolorem? Impedit provident iure quam quibusdam nesciunt?
+</p>
+<a href="" class="hero-btn red-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="kkk (1).jpg" alt="About">
+            </div>
+        </div>
+    </section>
+    <!--------Comment box-------->
+    <div class="c-boxes">
+        <h3>Leave a comment</h3>
+        <from class="c-form">
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter Email">
+            <textarea rows="5" placeholder="Your comment">
+
+            </textarea>
+            <button type="submit" class="hero-btn red-btn">Post Comment</button>
+
+
+        </from>
+    </div>
+   
+
+
+</section>
+
+<!---Contact us-->
+<h3>Our location</h3>
+
+ <section class="Location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30141.879987954897!2d72.8448715!3d19.206773499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b6c7d151eb11%3A0x53c60cb900ce3b40!2sKandivali%2C%20Kandivali%20West%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1678934301686!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+ </section>
+
+
+<!-------- Footer----------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam porro nostrum minus ab ipsum, recusandae id adipisci, sequi iste quod optio veritatis dolor necessitatibus, molestiae facilis commodi ut sit velit.</p>
+    <div class="icons">
+        <i class="fa fa-Facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-gmail"></i>
+        <i class="fa fa-telegram"></i>
+        <i class="fa fa-twitter"></i>
+
+
+
+
+    </div>
+    <p>Made with <i class="fa fa-heart-o">Abhishek kumar</i></p>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+    <!--------Javascript for menu-------->
+<script>
+
+        var navLinks = document.getElementById(navLinks);
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+
+
+
+    </script>
+
+</body>
+
+</html>
